@@ -32,6 +32,10 @@ https://templatemo.com/tm-553-xtra-blog
                         <i class="fas fa-home"></i>
                         Home
                     </a></li>
+                    <li class="tm-nav-item"><a href="category-index.php" class="tm-nav-link">
+                        <i class="fas fa-home"></i>
+                        Category
+                    </a></li>
                     <li class="tm-nav-item"><a href="about.php" class="tm-nav-link">
                         <i class="fas fa-users"></i>
                         About Xtra
@@ -76,14 +80,4 @@ https://templatemo.com/tm-553-xtra-blog
     
     <div class="container-fluid">
         <main class="tm-main">
-            <!-- Search form -->
-            <div class="row tm-row">
-                <div class="col-12">
-                    <form method="GET" class="form-inline tm-mb-80 tm-search-form">                
-                        <input class="form-control tm-search-input" name="query" type="text" placeholder="Search..." aria-label="Search">
-                        <button class="tm-search-button" type="submit">
-                            <i class="fas fa-search tm-search-icon" aria-hidden="true"></i>
-                        </button>                                
-                    </form>
-                </div>                
-            </div> 
+            

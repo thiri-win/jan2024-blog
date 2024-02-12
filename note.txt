@@ -3,3 +3,12 @@ blog
 category - create, read, update, delete
 article - create, read, update, delete
 user - login, logout, & to comment in blog
+
+git init // 
+git add . 
+git branch -M main
+git commit -m 'project init'
+git remote add .......
+git push --set-upstream origin main
+git push 
+
