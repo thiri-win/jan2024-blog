@@ -79,5 +79,6 @@ https://templatemo.com/tm-553-xtra-blog
     </header>
     
     <div class="container-fluid">
-        <main class="tm-main">
+        <main class="tm-main"> 
+
             
