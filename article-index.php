@@ -1,3 +1,6 @@
+<a href="article-create.php" class="tm-external-link mb-3">
+    <i class="fa-solid fa-plus-circle"></i>New Article
+</a>
 <div class="row tm-row">
     <article class="col-12 col-md-6 tm-post">
         <hr class="tm-hr-primary">
