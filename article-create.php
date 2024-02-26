@@ -18,8 +18,6 @@ if(isset($_POST['article-store'])) {
 
     if(!$error) {
         $photo_path = [];
-        // upload real file to project
-        // create path
         for($i = 0; $i < count($photos['tmp_name']); $i++) {
             move_uploaded_file($photos['tmp_name'][$i], 'img/'.$photos['name'][$i]);
             $photo_path[] = 'img/'.$photos['name'][$i];
