@@ -15,12 +15,12 @@ $articles = $result;
     <?php foreach($articles as $article): ?>
     <article class="col-12 col-md-6 tm-post">
         <hr class="tm-hr-primary">
-        <a href="article-view.php" class="effect-lily tm-post-link tm-pt-60">
+        <a href="article-view.php?id=<?= $article['id'] ?>" class="effect-lily tm-post-link tm-pt-60">
             <div class="tm-post-link-inner">
                 <img src="<?php echo json_decode($article['photos'])[0] ?? 'img/img-01.jpg'; ?>" alt="Image" class="img-fluid">
             </div>
             <span class="position-absolute tm-new-badge">New</span>
-            <h2 class="tm-pt-30 tm-color-primary tm-post-title">Simple and useful HTML layout</h2>
+            <h2 class="tm-pt-30 tm-color-primary tm-post-title"><?= $article['title'] ?></h2>
         </a>
         <p class="tm-pt-30">
             <?= $article['body'] ?>
