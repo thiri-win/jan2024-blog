@@ -8,6 +8,13 @@
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <!-- https://fonts.google.com/ -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
+    <style>
+        .tm-post-link-inner img {
+            height: 18rem !important;
+            object-fit: cover !important;
+            object-position: top !important;
+        }
+    </style>
 <!--
     
 TemplateMo 553 Xtra Blog
