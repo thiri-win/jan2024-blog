@@ -31,7 +31,6 @@ $articles = $result;
         </div>
         <hr>
         <div class="d-flex justify-content-between">
-            <span>36 comments</span>
             <span>by Admin Nat</span>
         </div>
     </article>

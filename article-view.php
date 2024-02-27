@@ -2,7 +2,9 @@
 
 include 'db.php';
 $id = $_GET['id'];
-$query = "SELECT * FROM articles LEFT JOIN categories ON articles.category_id=categories.id WHERE categories.id = '$id'";
+$query = "SELECT * FROM articles LEFT JOIN categories 
+    ON articles.category_id=categories.id 
+    WHERE categories.id = '$id'";
 $result = mysqli_query($conn, $query);
 $article = mysqli_fetch_assoc($result);
 
@@ -11,6 +13,9 @@ $article = mysqli_fetch_assoc($result);
 
 <?php include 'layout/header.php'; ?>
 
+<a href="article-edit.php?id=<?= $article['id'] ?>" class="tm-external-link mb-3">
+    <i class="fa-solid fa-pen"></i>Edit
+</a>
 <div class="row tm-row">
     <div class="col-12">
         <hr class="tm-hr-primary tm-mb-55">
