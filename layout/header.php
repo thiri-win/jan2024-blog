@@ -47,15 +47,15 @@ https://templatemo.com/tm-553-xtra-blog
                         <i class="fas fa-users"></i>
                         About Xtra
                     </a></li>
-                    <li class="tm-nav-item"><a href="contact.php" class="tm-nav-link">
+                    <li class="tm-nav-item"><a href="register.php" class="tm-nav-link">
                         <i class="fas fa-registered"></i>
                         Register
                     </a></li>
-                    <li class="tm-nav-item"><a href="contact.php" class="tm-nav-link">
+                    <li class="tm-nav-item"><a href="login.php" class="tm-nav-link">
                         <i class="far fa-user"></i>
                         Login
                     </a></li>
-                    <li class="tm-nav-item"><a href="contact.php" class="tm-nav-link">
+                    <li class="tm-nav-item"><a href="logout.php" class="tm-nav-link">
                         <i class="fas fa-sign-in-alt"></i>
                         Logout
                     </a></li>
