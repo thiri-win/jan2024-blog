@@ -21,7 +21,6 @@ if(isset($_POST['article-update'])) {
     empty($category_id) ? $error[] = "Category must be selected" : '';
 
     if(!$error) {
-        
         if(is_uploaded_file($photos['tmp_name'][0])) {
             $photo_path = [];
             for($i = 0; $i < count($photos['tmp_name']); $i++) {

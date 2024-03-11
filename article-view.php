@@ -14,7 +14,10 @@ $article = mysqli_fetch_assoc($result);
 <?php include 'layout/header.php'; ?>
 
 <a href="article-edit.php?id=<?= $id ?>" class="tm-external-link mb-3">
-    <i class="fa-solid fa-pen"></i>Edit
+    <i class="fa-solid fa-pen"></i> Edit
+</a>
+<a href="article-delete.php?id=<?= $article['id'] ?>" class="tm-external-link mb-3">
+    <i class="fa-solid fa-trash"></i> Delete
 </a>
 <div class="row tm-row">
     <div class="col-12">
