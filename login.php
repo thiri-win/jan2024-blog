@@ -31,7 +31,6 @@ if (isset($_POST['login'])) {
 
 ?>
 
-
 <?php
 include 'layout/header.php';
 ?>
